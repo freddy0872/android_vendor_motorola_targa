@@ -18,8 +18,9 @@
 
 <!-- switch to all_apps_3d on devices that support RenderScript -->
 
-<!-- No worky in ICS
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- No worky in ICS
     <include layout="@layout/all_apps_3d" />
+    Remove surrounding comments to renable -->
 </merge>
--->
+

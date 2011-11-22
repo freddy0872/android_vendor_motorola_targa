@@ -18,10 +18,10 @@
 
 # system/app
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
-vendor/motorola/targa/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-vendor/motorola/targa/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-vendor/motorola/targa/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
+#vendor/motorola/targa/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
+#vendor/motorola/targa/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
+#vendor/motorola/targa/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
+#vendor/motorola/targa/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
 
 # system/bin
 PRODUCT_COPY_FILES += \
