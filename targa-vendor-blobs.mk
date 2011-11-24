@@ -178,8 +178,8 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 
 # system/lib
 #PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
-#vendor/motorola/targa/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
+vendor/motorola/targa/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
+vendor/motorola/targa/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
 #vendor/motorola/targa/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
 #vendor/motorola/targa/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 #vendor/motorola/targa/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
@@ -187,7 +187,7 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 #vendor/motorola/targa/proprietary/libamcm.so:/system/lib/libamcm.so \
 #vendor/motorola/targa/proprietary/libb64.so:/system/lib/libb64.so \
 #vendor/motorola/targa/proprietary/libbabysit.so:/system/lib/libbabysit.so \
-#vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
+vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
 #vendor/motorola/targa/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
 #vendor/motorola/targa/proprietary/libcaps.so:/system/lib/libcaps.so \
 #vendor/motorola/targa/proprietary/libcapsjava.so:/system/lib/libcapsjava.so \
@@ -197,11 +197,11 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 #vendor/motorola/targa/proprietary/libdlnasysjni.so:/system/lib/libdlnasysjni.so \
 #vendor/motorola/targa/proprietary/libdmengine.so:/system/lib/libdmengine.so \
 #vendor/motorola/targa/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
-#vendor/motorola/targa/proprietary/libdrm.so:/system/lib/libdrm.so \
+vendor/motorola/targa/proprietary/libdrm.so:/system/lib/libdrm.so \
 #vendor/motorola/targa/proprietary/libexempi.so:/system/lib/libexempi.so \
 #vendor/motorola/targa/proprietary/libextdisp.so:/system/lib/libextdisp.so \
 #vendor/motorola/targa/proprietary/libgdx.so:/system/lib/libgdx.so \
-#vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
+vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
 #vendor/motorola/targa/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 #vendor/motorola/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 #vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
@@ -248,8 +248,8 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 #vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 #vendor/motorola/targa/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 #vendor/motorola/targa/proprietary/libprovlib.so:/system/lib/libprovlib.so \
-#vendor/motorola/targa/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
-#vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
+vendor/motorola/targa/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
+vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
 #vendor/motorola/targa/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 #vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 #vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
@@ -258,8 +258,8 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 #vendor/motorola/targa/proprietary/libscalado.so:/system/lib/libscalado.so \
 #vendor/motorola/targa/proprietary/libsmapi.so:/system/lib/libsmapi.so \
 #vendor/motorola/targa/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
-#vendor/motorola/targa/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
-#vendor/motorola/targa/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
+vendor/motorola/targa/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
+vendor/motorola/targa/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
 #vendor/motorola/targa/proprietary/libssmgr.so:/system/lib/libssmgr.so \
 #vendor/motorola/targa/proprietary/libtalk_jni.so:/system/lib/libtalk_jni.so \
 #vendor/motorola/targa/proprietary/libtexture_mem.so:/system/lib/libtexture_mem.so \
@@ -267,7 +267,7 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 #vendor/motorola/targa/proprietary/libtpa.so:/system/lib/libtpa.so \
 #vendor/motorola/targa/proprietary/libtpa_core.so:/system/lib/libtpa_core.so \
 #vendor/motorola/targa/proprietary/libui3d.so:/system/lib/libui3d.so \
-#vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
+vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
 #vendor/motorola/targa/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
 #vendor/motorola/targa/proprietary/libvoicesearch.so:/system/lib/libvoicesearch.so \
 #vendor/motorola/targa/proprietary/libvorbisenc.so:/system/lib/libvorbisenc.so \
