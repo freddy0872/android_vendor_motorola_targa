@@ -16,27 +16,15 @@
 
 # All the blobs necessary for targa
 
-# system/app
-PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
-#vendor/motorola/targa/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-#vendor/motorola/targa/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-#vendor/motorola/targa/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-
 # system/bin
-PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/akmd2:/system/bin/akmd2 \
-#vendor/motorola/targa/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
-#vendor/motorola/targa/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
+#PRODUCT_COPY_FILES += \
 #vendor/motorola/targa/proprietary/base64:/system/bin/base64 \
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
-vendor/motorola/targa/proprietary/battd:/system/bin/battd \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
 #vendor/motorola/targa/proprietary/bthelp:/system/bin/bthelp \
 #vendor/motorola/targa/proprietary/bttest_mot:/system/bin/bttest_mot \
 #vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 #vendor/motorola/targa/proprietary/charge_only_mode:/system/bin/charge_only_mode \
-#vendor/motorola/targa/proprietary/chat-ril:/system/bin/chat-ril \
 #vendor/motorola/targa/proprietary/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
 #vendor/motorola/targa/proprietary/dlnasrv:/system/bin/dlnasrv \
 #vendor/motorola/targa/proprietary/dmt:/system/bin/dmt \
@@ -56,16 +44,13 @@ vendor/motorola/targa/proprietary/battd:/system/bin/battd \
 #vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
 #vendor/motorola/targa/proprietary/logcatd:/system/bin/logcatd \
 #vendor/motorola/targa/proprietary/logcatd-blan:/system/bin/logcatd-blan \
-#vendor/motorola/targa/proprietary/mdm_panicd:/system/bin/mdm_panicd \
 #vendor/motorola/targa/proprietary/memtest_mode:/system/bin/memtest_mode \
 #vendor/motorola/targa/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
-#vendor/motorola/targa/proprietary/modemlog:/system/bin/modemlog \
 #vendor/motorola/targa/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 #vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 #vendor/motorola/targa/proprietary/napics.sh:/system/bin/napics.sh \
-#vendor/motorola/targa/proprietary/pppd-ril:/system/bin/pppd-ril \
-vendor/motorola/targa/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
+##vendor/motorola/targa/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
 #vendor/motorola/targa/proprietary/rild:/system/bin/rild \
 #vendor/motorola/targa/proprietary/secclkd:/system/bin/secclkd \
 #vendor/motorola/targa/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
@@ -73,27 +58,38 @@ vendor/motorola/targa/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
 #vendor/motorola/targa/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 #vendor/motorola/targa/proprietary/tcmd:/system/bin/tcmd \
 #vendor/motorola/targa/proprietary/tcmdhelp:/system/bin/tcmdhelp \
-#vendor/motorola/targa/proprietary/testpppd:/system/bin/testpppd \
 #vendor/motorola/targa/proprietary/tf_daemon:/system/bin/tf_daemon \
-#vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
 #vendor/motorola/targa/proprietary/tstmetainfo:/system/bin/tstmetainfo \
 #vendor/motorola/targa/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 #vendor/motorola/targa/proprietary/tund:/system/bin/tund \
-#vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
-vendor/motorola/targa/proprietary/vold:/system/bin/vold \
+#vendor/motorola/targa/proprietary/vold:/system/bin/vold \
 #vendor/motorola/targa/proprietary/vril-dump:/system/bin/vril-dump \
 #vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
-#vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
 #vendor/motorola/targa/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
 #vendor/motorola/targa/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 #vendor/motorola/targa/proprietary/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
 
+# system/bin
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/akmd2:/system/bin/akmd2 \
+vendor/motorola/targa/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
+vendor/motorola/targa/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
+vendor/motorola/targa/proprietary/battd:/system/bin/battd \
+vendor/motorola/targa/proprietary/chat-ril:/system/bin/chat-ril \
+vendor/motorola/targa/proprietary/mdm_panicd:/system/bin/mdm_panicd \
+vendor/motorola/targa/proprietary/modemlog:/system/bin/modemlog \
+vendor/motorola/targa/proprietary/pppd-ril:/system/bin/pppd-ril \
+vendor/motorola/targa/proprietary/rild:/system/bin/rild \
+vendor/motorola/targa/proprietary/testpppd:/system/bin/testpppd \
+vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
+vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
+vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
+
 # system/etc
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
-#vendor/motorola/targa/proprietary/backup_targets.csv:/system/etc/backup_targets.csv \
-#vendor/motorola/targa/proprietary/btpan.conf:/system/etc/btpan.conf \
-#vendor/motorola/targa/proprietary/dbus.conf:/system/etc/dbus.conf \
+vendor/motorola/targa/proprietary/backup_targets.csv:/system/etc/backup_targets.csv \
+vendor/motorola/targa/proprietary/btpan.conf:/system/etc/btpan.conf \
 vendor/motorola/targa/proprietary/ecryptfs.exc:/system/etc/ecryptfs.exc \
 vendor/motorola/targa/proprietary/ecryptfs.tab:/system/etc/ecryptfs.tab \
 vendor/motorola/targa/proprietary/event-log-tags:/system/etc/event-log-tags \
@@ -103,83 +99,94 @@ vendor/motorola/targa/proprietary/hdmiSolDefSm.gif:/system/etc/hdmiSolDefSm.gif 
 vendor/motorola/targa/proprietary/opl.dat.enc:/system/etc/opl.dat.enc \
 vendor/motorola/targa/proprietary/priority_notifications_config.xml:/system/etc/priority_notifications_config.xml \
 vendor/motorola/targa/proprietary/pvplayer.cfg:/system/etc/pvplayer.cfg \
-#vendor/motorola/targa/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
-#vendor/motorola/targa/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
-#vendor/motorola/targa/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedlocales.conf \
+vendor/motorola/targa/proprietary/dbus.conf:/system/etc/dbus.conf \
+vendor/motorola/targa/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
+vendor/motorola/targa/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
+vendor/motorola/targa/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 
 # system/etc/(others)
 #PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
-#vendor/motorola/targa/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-#vendor/motorola/targa/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
-#vendor/motorola/targa/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
-#vendor/motorola/targa/proprietary/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
-#vendor/motorola/targa/proprietary/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
-#vendor/motorola/targa/proprietary/SEN2.cfg:/system/etc/omapcam/SEN2.cfg \
-#vendor/motorola/targa/proprietary/cid1039_cid1039_capabilities.bin:/system/etc/omapcam/module1.bak/cid1039_cid1039_capabilities.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_ae_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_awb_alg_ti3_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_tuning.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_eff_tun.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_eff_tun.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_gamma.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_gamma.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_lsc_2d.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_lsc_2d.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_nsf_ldc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_nsf_ldc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_gbce_sw1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_gbce_sw1_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_golden_module_calibration.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_golden_module_calibration.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_h3a_aewb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_h3a_aewb_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_3d_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_3d_lut_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_car_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_car_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_cfai_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cfai_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_cgs_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cgs_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_dpc_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_lut_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_dpc_otf.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_otf.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_ee_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_ee_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_gbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gbce_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_gic_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gic_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_lsc_poly_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_lsc_poly_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_nf1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf1_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_nf2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf2_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rsz_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rsz_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_isif_clamp_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_clamp_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_isif_csc_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_csc_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_iss_glbce3_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_glbce3_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_iss_lbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_lbce_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_iss_scene_modes_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_scene_modes_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_iss_vstab_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_vstab_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ldc_cac_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cac_cfg_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_ldc_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cfg_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_lsc_interp.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_lsc_interp.bin \
-#vendor/motorola/targa/proprietary/cid1039_ov8820_vnf_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_vnf_cfg_dcc.bin \
-#vendor/motorola/targa/proprietary/cid1040_ov7739_sensor_config_dcc.bin:/system/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin \
-#vendor/motorola/targa/proprietary/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
+vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
+vendor/motorola/targa/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
+vendor/motorola/targa/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
+vendor/motorola/targa/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
+vendor/motorola/targa/proprietary/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
+vendor/motorola/targa/proprietary/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
+vendor/motorola/targa/proprietary/SEN2.cfg:/system/etc/omapcam/SEN2.cfg \
+vendor/motorola/targa/proprietary/cid1039_cid1039_capabilities.bin:/system/etc/omapcam/module1.bak/cid1039_cid1039_capabilities.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_ae_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_awb_alg_ti3_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_tuning.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_eff_tun.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_eff_tun.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_gamma.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_gamma.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_lsc_2d.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_lsc_2d.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ducati_nsf_ldc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_nsf_ldc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_gbce_sw1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_gbce_sw1_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_golden_module_calibration.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_golden_module_calibration.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_h3a_aewb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_h3a_aewb_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_3d_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_3d_lut_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_car_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_car_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_cfai_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cfai_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_cgs_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cgs_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_dpc_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_lut_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_dpc_otf.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_otf.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_ee_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_ee_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_gbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gbce_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_gic_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gic_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_lsc_poly_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_lsc_poly_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_nf1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf1_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_nf2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf2_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_rsz_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rsz_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_isif_clamp_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_clamp_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_isif_csc_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_csc_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_iss_glbce3_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_glbce3_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_iss_lbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_lbce_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_iss_scene_modes_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_scene_modes_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_iss_vstab_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_vstab_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ldc_cac_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cac_cfg_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_ldc_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cfg_dcc.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_lsc_interp.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_lsc_interp.bin \
+vendor/motorola/targa/proprietary/cid1039_ov8820_vnf_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_vnf_cfg_dcc.bin \
+vendor/motorola/targa/proprietary/cid1040_ov7739_sensor_config_dcc.bin:/system/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin \
+vendor/motorola/targa/proprietary/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
+vendor/motorola/targa/proprietary/en_US.aff:/system/etc/spellchecker/en_US.aff \
+vendor/motorola/targa/proprietary/en_US.dic:/system/etc/spellchecker/en_US.dic \
+vendor/motorola/targa/proprietary/es_ES.aff:/system/etc/spellchecker/es_ES.aff \
+vendor/motorola/targa/proprietary/es_ES.dic:/system/etc/spellchecker/es_ES.dic \
+vendor/motorola/targa/proprietary/google_generic_update.txt:/system/etc/updatecmds/google_generic_update.txt \
+vendor/motorola/targa/proprietary/mve.ini:/system/etc/VideoEditorLite/mve.ini \
+vendor/motorola/targa/proprietary/MeaningFulLocation.vsensor:/system/etc/vsensor.d/MeaningFulLocation.vsensor \
+vendor/motorola/targa/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
+vendor/motorola/targa/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
+vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
+
 #vendor/motorola/targa/proprietary/mancacerts.zip:/system/etc/security/mancacerts.zip \
 #vendor/motorola/targa/proprietary/oprcacerts.zip:/system/etc/security/oprcacerts.zip \
 #vendor/motorola/targa/proprietary/suplcerts.bks:/system/etc/security/suplcerts.bks \
-#vendor/motorola/targa/proprietary/en_US.aff:/system/etc/spellchecker/en_US.aff \
-#vendor/motorola/targa/proprietary/en_US.dic:/system/etc/spellchecker/en_US.dic \
-#vendor/motorola/targa/proprietary/es_ES.aff:/system/etc/spellchecker/es_ES.aff \
-#vendor/motorola/targa/proprietary/es_ES.dic:/system/etc/spellchecker/es_ES.dic \
-#vendor/motorola/targa/proprietary/google_generic_update.txt:/system/etc/updatecmds/google_generic_update.txt \
-#vendor/motorola/targa/proprietary/mve.ini:/system/etc/VideoEditorLite/mve.ini \
-#vendor/motorola/targa/proprietary/MeaningFulLocation.vsensor:/system/etc/vsensor.d/MeaningFulLocation.vsensor \
-#vendor/motorola/targa/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
-#vendor/motorola/targa/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
-#vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
 # system/lib
-#PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/targa/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
 vendor/motorola/targa/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
+vendor/motorola/targa/proprietary/libdrm.so:/system/lib/libdrm.so \
+vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
+vendor/motorola/targa/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
+vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
+vendor/motorola/targa/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
+vendor/motorola/targa/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
+vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
+
 #vendor/motorola/targa/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
 #vendor/motorola/targa/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 #vendor/motorola/targa/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
@@ -187,7 +194,6 @@ vendor/motorola/targa/proprietary/libPVRScopeServices.so:/system/lib/libPVRScope
 #vendor/motorola/targa/proprietary/libamcm.so:/system/lib/libamcm.so \
 #vendor/motorola/targa/proprietary/libb64.so:/system/lib/libb64.so \
 #vendor/motorola/targa/proprietary/libbabysit.so:/system/lib/libbabysit.so \
-vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
 #vendor/motorola/targa/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
 #vendor/motorola/targa/proprietary/libcaps.so:/system/lib/libcaps.so \
 #vendor/motorola/targa/proprietary/libcapsjava.so:/system/lib/libcapsjava.so \
@@ -197,11 +203,9 @@ vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
 #vendor/motorola/targa/proprietary/libdlnasysjni.so:/system/lib/libdlnasysjni.so \
 #vendor/motorola/targa/proprietary/libdmengine.so:/system/lib/libdmengine.so \
 #vendor/motorola/targa/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
-vendor/motorola/targa/proprietary/libdrm.so:/system/lib/libdrm.so \
 #vendor/motorola/targa/proprietary/libexempi.so:/system/lib/libexempi.so \
 #vendor/motorola/targa/proprietary/libextdisp.so:/system/lib/libextdisp.so \
 #vendor/motorola/targa/proprietary/libgdx.so:/system/lib/libgdx.so \
-vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
 #vendor/motorola/targa/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 #vendor/motorola/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 #vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
@@ -248,8 +252,6 @@ vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler
 #vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 #vendor/motorola/targa/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 #vendor/motorola/targa/proprietary/libprovlib.so:/system/lib/libprovlib.so \
-vendor/motorola/targa/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
-vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
 #vendor/motorola/targa/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 #vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 #vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
@@ -258,8 +260,6 @@ vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDRO
 #vendor/motorola/targa/proprietary/libscalado.so:/system/lib/libscalado.so \
 #vendor/motorola/targa/proprietary/libsmapi.so:/system/lib/libsmapi.so \
 #vendor/motorola/targa/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
-vendor/motorola/targa/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
-vendor/motorola/targa/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
 #vendor/motorola/targa/proprietary/libssmgr.so:/system/lib/libssmgr.so \
 #vendor/motorola/targa/proprietary/libtalk_jni.so:/system/lib/libtalk_jni.so \
 #vendor/motorola/targa/proprietary/libtexture_mem.so:/system/lib/libtexture_mem.so \
@@ -267,7 +267,6 @@ vendor/motorola/targa/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
 #vendor/motorola/targa/proprietary/libtpa.so:/system/lib/libtpa.so \
 #vendor/motorola/targa/proprietary/libtpa_core.so:/system/lib/libtpa_core.so \
 #vendor/motorola/targa/proprietary/libui3d.so:/system/lib/libui3d.so \
-vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
 #vendor/motorola/targa/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
 #vendor/motorola/targa/proprietary/libvoicesearch.so:/system/lib/libvoicesearch.so \
 #vendor/motorola/targa/proprietary/libvorbisenc.so:/system/lib/libvorbisenc.so \
@@ -295,10 +294,10 @@ vendor/motorola/targa/proprietary/libgles2_texture_stream.so:/system/lib/egl/lib
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/gps.targa.so:/system/lib/hw/gps.targa.so \
+vendor/motorola/targa/proprietary/gps.targa.so:/system/lib/hw/gps.targa.so \
 vendor/motorola/targa/proprietary/gralloc.omap4.so:/system/lib/hw/gralloc.omap4.so \
-#vendor/motorola/targa/proprietary/lights.targa.so:/system/lib/hw/lights.targa.so \
-#vendor/motorola/targa/proprietary/sensors.targa.so:/system/lib/hw/sensors.targa.so \
+vendor/motorola/targa/proprietary/lights.targa.so:/system/lib/hw/lights.targa.so \
+vendor/motorola/targa/proprietary/sensors.targa.so:/system/lib/hw/sensors.targa.so \
 
 # system/tts
 #PRODUCT_COPY_FILES += \
@@ -319,10 +318,10 @@ vendor/motorola/targa/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
 #vendor/motorola/targa/proprietary/kbd_us_basic.kcm.bin:/system/usr/keychars/kbd_us_basic.kcm.bin \
 #vendor/motorola/targa/proprietary/kbd_us_intl.kcm.bin:/system/usr/keychars/kbd_us_intl.kcm.bin \
 #vendor/motorola/targa/proprietary/usb_keyboard_102_en_us.kcm.bin:/system/usr/keychars/usb_keyboard_102_en_us.kcm.bin \
-vendor/motorola/targa/proprietary/cdma_targa-keypad.kl:/system/usr/keylayout/cdma_targa-keypad.kl \
-vendor/motorola/targa/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
+#vendor/motorola/targa/proprietary/cdma_targa-keypad.kl:/system/usr/keylayout/cdma_targa-keypad.kl \
+#vendor/motorola/targa/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
 #vendor/motorola/targa/proprietary/evfwd.kl:/system/usr/keylayout/evfwd.kl \
-vendor/motorola/targa/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
+#vendor/motorola/targa/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
 #vendor/motorola/targa/proprietary/alsa.conf:/system/usr/share/alsa/alsa.conf \
 #vendor/motorola/targa/proprietary/00main:/system/usr/share/alsa/init/00main \
 #vendor/motorola/targa/proprietary/default:/system/usr/share/alsa/init/default \
