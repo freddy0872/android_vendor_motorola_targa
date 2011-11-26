@@ -274,7 +274,7 @@ vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
 #vendor/motorola/targa/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
 #vendor/motorola/targa/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 #vendor/motorola/targa/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
-#vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \#
+#vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
