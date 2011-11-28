@@ -17,8 +17,20 @@
 # All the blobs necessary for targa
 
 # system/bin
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/base64:/system/bin/base64 \
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/base64:/system/bin/base64 \
+vendor/motorola/targa/proprietary/libb64.so:/system/lib/libb64.so \
+vendor/motorola/targa/proprietary/libbabysit.so:/system/lib/libbabysit.so \
+vendor/motorola/targa/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
+vendor/motorola/targa/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
+vendor/motorola/targa/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
+vendor/motorola/targa/proprietary/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
+vendor/motorola/targa/proprietary/vril-dump:/system/bin/vril-dump \
+vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
+vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
+vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
+vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
+
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
 #vendor/motorola/targa/proprietary/bthelp:/system/bin/bthelp \
@@ -42,16 +54,12 @@
 #vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/ip:/system/bin/ip \
 #vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
-#vendor/motorola/targa/proprietary/logcatd:/system/bin/logcatd \
-#vendor/motorola/targa/proprietary/logcatd-blan:/system/bin/logcatd-blan \
 #vendor/motorola/targa/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/targa/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
 #vendor/motorola/targa/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 #vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 #vendor/motorola/targa/proprietary/napics.sh:/system/bin/napics.sh \
 ##vendor/motorola/targa/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
-#vendor/motorola/targa/proprietary/rild:/system/bin/rild \
 #vendor/motorola/targa/proprietary/secclkd:/system/bin/secclkd \
 #vendor/motorola/targa/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 #vendor/motorola/targa/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
@@ -63,13 +71,8 @@
 #vendor/motorola/targa/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 #vendor/motorola/targa/proprietary/tund:/system/bin/tund \
 #vendor/motorola/targa/proprietary/vold:/system/bin/vold \
-#vendor/motorola/targa/proprietary/vril-dump:/system/bin/vril-dump \
 #vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
-#vendor/motorola/targa/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
-#vendor/motorola/targa/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
-#vendor/motorola/targa/proprietary/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
 
-# system/bin
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/akmd2:/system/bin/akmd2 \
 vendor/motorola/targa/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
@@ -170,30 +173,19 @@ vendor/motorola/targa/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.b
 vendor/motorola/targa/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
 vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
-#vendor/motorola/targa/proprietary/mancacerts.zip:/system/etc/security/mancacerts.zip \
-#vendor/motorola/targa/proprietary/oprcacerts.zip:/system/etc/security/oprcacerts.zip \
-#vendor/motorola/targa/proprietary/suplcerts.bks:/system/etc/security/suplcerts.bks \
-
 # system/lib
-PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
-vendor/motorola/targa/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
-vendor/motorola/targa/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
-vendor/motorola/targa/proprietary/libdrm.so:/system/lib/libdrm.so \
-vendor/motorola/targa/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
-vendor/motorola/targa/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
-vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
-vendor/motorola/targa/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
-vendor/motorola/targa/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
-vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
-
-#vendor/motorola/targa/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
+#vendor/motorola/targaa/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
+#vendor/motorola/targa/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
+#vendor/motorola/targa/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
+#vendor/motorola/targa/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
+#vendor/motorola/targa/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
+#vendor/motorola/targa/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
+#vendor/motorola/targa/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
+# system/lib
 #vendor/motorola/targa/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 #vendor/motorola/targa/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
 #vendor/motorola/targa/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 #vendor/motorola/targa/proprietary/libamcm.so:/system/lib/libamcm.so \
-#vendor/motorola/targa/proprietary/libb64.so:/system/lib/libb64.so \
-#vendor/motorola/targa/proprietary/libbabysit.so:/system/lib/libbabysit.so \
 #vendor/motorola/targa/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
 #vendor/motorola/targa/proprietary/libcaps.so:/system/lib/libcaps.so \
 #vendor/motorola/targa/proprietary/libcapsjava.so:/system/lib/libcapsjava.so \
@@ -229,12 +221,10 @@ vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
 #vendor/motorola/targa/proprietary/libmotdrm1.so:/system/lib/libmotdrm1.so \
 #vendor/motorola/targa/proprietary/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
 #vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
-#vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
 #vendor/motorola/targa/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
 #vendor/motorola/targa/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
 #vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
 #vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
-#vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
 #vendor/motorola/targa/proprietary/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
 #vendor/motorola/targa/proprietary/libmtp_jni.so:/system/lib/libmtp_jni.so \
 #vendor/motorola/targa/proprietary/libmtpstack.so:/system/lib/libmtpstack.so \
@@ -249,7 +239,6 @@ vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
 #vendor/motorola/targa/proprietary/libphotoflow.so:/system/lib/libphotoflow.so \
 #vendor/motorola/targa/proprietary/libpkip.so:/system/lib/libpkip.so \
 #vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
-#vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 #vendor/motorola/targa/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 #vendor/motorola/targa/proprietary/libprovlib.so:/system/lib/libprovlib.so \
 #vendor/motorola/targa/proprietary/libquicksec.so:/system/lib/libquicksec.so \
@@ -274,7 +263,9 @@ vendor/motorola/targa/proprietary/libusc.so:/system/lib/libusc.so \
 #vendor/motorola/targa/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
 #vendor/motorola/targa/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 #vendor/motorola/targa/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
-#vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
+
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/libbattd.so:/system/lib/libbattd.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
@@ -283,19 +274,9 @@ vendor/motorola/targa/proprietary/Notify_MPUSYS_Test_Core0.xem3:/system/lib/duca
 vendor/motorola/targa/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
 vendor/motorola/targa/proprietary/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \
 
-# system/lib/egl
-PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/libEGL_POWERVR_SGX540_120.so:/system/lib/egl/libEGL_POWERVR_SGX540_120.so \
-vendor/motorola/targa/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-vendor/motorola/targa/proprietary/libGLESv2_POWERVR_SGX540_120.so:/system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-vendor/motorola/targa/proprietary/libeglinfo.so:/system/lib/egl/libeglinfo.so \
-vendor/motorola/targa/proprietary/libgles1_texture_stream.so:/system/lib/egl/libgles1_texture_stream.so \
-vendor/motorola/targa/proprietary/libgles2_texture_stream.so:/system/lib/egl/libgles2_texture_stream.so \
-
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/gps.targa.so:/system/lib/hw/gps.targa.so \
-vendor/motorola/targa/proprietary/gralloc.omap4.so:/system/lib/hw/gralloc.omap4.so \
 vendor/motorola/targa/proprietary/lights.targa.so:/system/lib/hw/lights.targa.so \
 vendor/motorola/targa/proprietary/sensors.targa.so:/system/lib/hw/sensors.targa.so \
 
@@ -332,9 +313,9 @@ vendor/motorola/targa/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
 
 # system/xbin
 #PRODUCT_COPY_FILES += \
+#vendor/motorola/targa/proprietary/ssmgrd:/system/xbin/ssmgrd \
 #vendor/motorola/targa/proprietary/backup:/system/xbin/backup \
 #vendor/motorola/targa/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 #vendor/motorola/targa/proprietary/run_backup:/system/xbin/run_backup \
 #vendor/motorola/targa/proprietary/run_restore:/system/xbin/run_restore \
-#vendor/motorola/targa/proprietary/ssmgrd:/system/xbin/ssmgrd \
 
