@@ -30,6 +30,7 @@ vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
 vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
+vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
@@ -51,7 +52,6 @@ vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plug
 #vendor/motorola/targa/proprietary/ftmipcd:/system/bin/ftmipcd \
 #vendor/motorola/targa/proprietary/gkilogd:/system/bin/gkilogd \
 #vendor/motorola/targa/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
-#vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/ip:/system/bin/ip \
 #vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
 #vendor/motorola/targa/proprietary/memtest_mode:/system/bin/memtest_mode \
