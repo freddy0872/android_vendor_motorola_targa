@@ -31,6 +31,9 @@ vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-mul
 vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
 vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
+vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
+vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
@@ -243,9 +246,6 @@ vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.
 #vendor/motorola/targa/proprietary/libprovlib.so:/system/lib/libprovlib.so \
 #vendor/motorola/targa/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 #vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
-#vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-#vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
-#vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 #vendor/motorola/targa/proprietary/libscalado.so:/system/lib/libscalado.so \
 #vendor/motorola/targa/proprietary/libsmapi.so:/system/lib/libsmapi.so \
 #vendor/motorola/targa/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
