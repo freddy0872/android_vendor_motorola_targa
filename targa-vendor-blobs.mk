@@ -35,6 +35,10 @@ vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-r
 vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
 vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
+vendor/motorola/targa/proprietary/libnmea.so:/system/lib/libnmea.so \
+vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
+vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
+vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
@@ -204,7 +208,6 @@ vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.
 #vendor/motorola/targa/proprietary/libgdx.so:/system/lib/libgdx.so \
 #vendor/motorola/targa/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 #vendor/motorola/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
-#vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 #vendor/motorola/targa/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
 #vendor/motorola/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 #vendor/motorola/targa/proprietary/libipsec.so:/system/lib/libipsec.so \
@@ -227,8 +230,6 @@ vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.
 #vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 #vendor/motorola/targa/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
 #vendor/motorola/targa/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
-#vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
-#vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 #vendor/motorola/targa/proprietary/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
 #vendor/motorola/targa/proprietary/libmtp_jni.so:/system/lib/libmtp_jni.so \
 #vendor/motorola/targa/proprietary/libmtpstack.so:/system/lib/libmtpstack.so \
@@ -236,7 +237,6 @@ vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.
 #vendor/motorola/targa/proprietary/libnativedrm1.so:/system/lib/libnativedrm1.so \
 #vendor/motorola/targa/proprietary/libnbgm.so:/system/lib/libnbgm.so \
 #vendor/motorola/targa/proprietary/libnetutils.so:/system/lib/libnetutils.so \
-#vendor/motorola/targa/proprietary/libnmea.so:/system/lib/libnmea.so \
 #vendor/motorola/targa/proprietary/libpanorama.so:/system/lib/libpanorama.so \
 #vendor/motorola/targa/proprietary/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
 #vendor/motorola/targa/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
