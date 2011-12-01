@@ -35,6 +35,7 @@ vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 vendor/motorola/targa/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
 vendor/motorola/targa/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
 vendor/motorola/targa/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
+vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
