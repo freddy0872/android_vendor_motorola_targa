@@ -32,7 +32,7 @@ vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_r
 vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
-vendor/motorola/targaa/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
+vendor/motorola/targa/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
 
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
