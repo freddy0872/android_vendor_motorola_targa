@@ -33,6 +33,8 @@ vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril
 vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 vendor/motorola/targa/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
+vendor/motorola/targa/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
+vendor/motorola/targa/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
 
 #vendor/motorola/targa/proprietary/batch:/system/bin/batch \
 #vendor/motorola/targa/proprietary/btcmd:/system/bin/btcmd \
@@ -178,8 +180,6 @@ vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.
 #vendor/motorola/targa/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 #vendor/motorola/targa/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
 #vendor/motorola/targa/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
-#vendor/motorola/targa/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
-#vendor/motorola/targa/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
 #vendor/motorola/targa/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 # system/lib
 #vendor/motorola/targa/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
