@@ -1,4 +1,5 @@
 # Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2010 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -266,6 +267,7 @@ vendor/motorola/targa/proprietary/libims_client_jni.so:/system/lib/libims_client
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
+vendor/motorola/targa/proprietary/liba2dp.so:/system/lib/liba2dp.so
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
