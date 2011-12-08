@@ -233,7 +233,6 @@ vendor/motorola/targa/proprietary/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/targa/proprietary/libsmapi.so:/system/lib/libsmapi.so \
 vendor/motorola/targa/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
 vendor/motorola/targa/proprietary/libssmgr.so:/system/lib/libssmgr.so \
-vendor/motorola/targa/proprietary/libtalk_jni.so:/system/lib/libtalk_jni.so \
 vendor/motorola/targa/proprietary/libtexture_mem.so:/system/lib/libtexture_mem.so \
 vendor/motorola/targa/proprietary/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
 vendor/motorola/targa/proprietary/libtpa.so:/system/lib/libtpa.so \
