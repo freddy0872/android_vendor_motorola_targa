@@ -1,5 +1,4 @@
 # Copyright (C) 2010 The Android Open Source Project
-# Copyright (C) 2010 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,19 +17,6 @@
 # All the blobs necessary for targa
 
 # system/bin
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/battd:/system/bin/battd \
-#vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
-#vendor/motorola/targa/proprietary/dlnasrv:/system/bin/dlnasrv \
-#vendor/motorola/targa/proprietary/ip:/system/bin/ip \
-#vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
-#vendor/motorola/targa/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
-#vendor/motorola/targa/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
-#vendor/motorola/targa/proprietary/tf_daemon:/system/bin/tf_daemon \
-#vendor/motorola/targa/proprietary/tstmetainfo:/system/bin/tstmetainfo \
-#vendor/motorola/targa/proprietary/vold:/system/bin/vold \
-
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 vendor/motorola/targa/proprietary/akmd2:/system/bin/akmd2 \
@@ -73,6 +59,18 @@ vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 
+#vendor/motorola/targa/proprietary/battd:/system/bin/battd \
+#vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
+#vendor/motorola/targa/proprietary/dlnasrv:/system/bin/dlnasrv \
+#vendor/motorola/targa/proprietary/ip:/system/bin/ip \
+#vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
+#vendor/motorola/targa/proprietary/memtest_mode:/system/bin/memtest_mode \
+#vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
+#vendor/motorola/targa/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
+#vendor/motorola/targa/proprietary/tf_daemon:/system/bin/tf_daemon \
+#vendor/motorola/targa/proprietary/tstmetainfo:/system/bin/tstmetainfo \
+#vendor/motorola/targa/proprietary/vold:/system/bin/vold \
+
 
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -94,9 +92,10 @@ vendor/motorola/targa/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cf
 vendor/motorola/targa/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/targa/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 
+#vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
+
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 vendor/motorola/targa/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/targa/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
 vendor/motorola/targa/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
@@ -158,12 +157,28 @@ vendor/motorola/targa/proprietary/MeaningFulLocation.vsensor:/system/etc/vsensor
 vendor/motorola/targa/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
 vendor/motorola/targa/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
 vendor/motorola/targa/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
-
-# system/lib
-#vendor/motorola/targa/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
-#vendor/motorola/targa/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
-# system/lib
-#vendor/motorola/targa/proprietary/libnetutils.so:/system/lib/libnetutils.so \
+vendor/motorola/targa/proprietary/00main:system/usr/share/alsa/init/00main \
+vendor/motorola/targa/proprietary/default:system/usr/share/alsa/init/default \
+vendor/motorola/targa/proprietary/hda:system/usr/share/alsa/init/hda \
+vendor/motorola/targa/proprietary/info:system/usr/share/alsa/init/info \
+vendor/motorola/targa/proprietary/test:system/usr/share/alsa/init/test \
+vendor/motorola/targa/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf \
+vendor/motorola/targa/proprietary/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+vendor/motorola/targa/proprietary/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+vendor/motorola/targa/proprietary/default.conf:system/usr/share/alsa/pcm/default.conf \
+vendor/motorola/targa/proprietary/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+vendor/motorola/targa/proprietary/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+vendor/motorola/targa/proprietary/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+vendor/motorola/targa/proprietary/front.conf:system/usr/share/alsa/pcm/front.conf \
+vendor/motorola/targa/proprietary/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+vendor/motorola/targa/proprietary/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+vendor/motorola/targa/proprietary/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+vendor/motorola/targa/proprietary/side.conf:system/usr/share/alsa/pcm/side.conf \
+vendor/motorola/targa/proprietary/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+vendor/motorola/targa/proprietary/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+vendor/motorola/targa/proprietary/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+vendor/motorola/targa/proprietary/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+vendor/motorola/targa/proprietary/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
 # system/lib
 PRODUCT_COPY_FILES += \
@@ -266,7 +281,6 @@ vendor/motorola/targa/proprietary/libims_client_jni.so:/system/lib/libims_client
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
-vendor/motorola/targa/proprietary/liba2dp.so:/system/lib/liba2dp.so
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
@@ -281,43 +295,8 @@ vendor/motorola/targa/proprietary/gps.targa.so:/system/lib/hw/gps.targa.so \
 vendor/motorola/targa/proprietary/lights.targa.so:/system/lib/hw/lights.targa.so \
 vendor/motorola/targa/proprietary/sensors.targa.so:/system/lib/hw/sensors.targa.so \
 
-# system/tts
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
-#vendor/motorola/targa/proprietary/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.bin \
-#vendor/motorola/targa/proprietary/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
-#vendor/motorola/targa/proprietary/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
-#vendor/motorola/targa/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
-
-# system/usr
+# system/xbin
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/motorola/targa/proprietary/ssmgrd:/system/xbin/ssmgrd \
-
-#vendor/motorola/targa/proprietary/cdma_targa-keypad.kcm.bin:/system/usr/keychars/cdma_targa-keypad.kcm.bin \
-#vendor/motorola/targa/proprietary/evfwd.kcm.bin:/system/usr/keychars/evfwd.kcm.bin \
-#vendor/motorola/targa/proprietary/kbd_br_abnt2.kcm.bin:/system/usr/keychars/kbd_br_abnt2.kcm.bin \
-#vendor/motorola/targa/proprietary/kbd_de_basic.kcm.bin:/system/usr/keychars/kbd_de_basic.kcm.bin \
-#vendor/motorola/targa/proprietary/kbd_gb_basic.kcm.bin:/system/usr/keychars/kbd_gb_basic.kcm.bin \
-#vendor/motorola/targa/proprietary/kbd_latam_basic.kcm.bin:/system/usr/keychars/kbd_latam_basic.kcm.bin \
-#vendor/motorola/targa/proprietary/kbd_us_basic.kcm.bin:/system/usr/keychars/kbd_us_basic.kcm.bin \
-#vendor/motorola/targa/proprietary/kbd_us_intl.kcm.bin:/system/usr/keychars/kbd_us_intl.kcm.bin \
-#vendor/motorola/targa/proprietary/usb_keyboard_102_en_us.kcm.bin:/system/usr/keychars/usb_keyboard_102_en_us.kcm.bin \
-#vendor/motorola/targa/proprietary/cdma_targa-keypad.kl:/system/usr/keylayout/cdma_targa-keypad.kl \
-#vendor/motorola/targa/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
-#vendor/motorola/targa/proprietary/evfwd.kl:/system/usr/keylayout/evfwd.kl \
-#vendor/motorola/targa/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
-#vendor/motorola/targa/proprietary/alsa.conf:/system/usr/share/alsa/alsa.conf \
-#vendor/motorola/targa/proprietary/00main:/system/usr/share/alsa/init/00main \
-#vendor/motorola/targa/proprietary/default:/system/usr/share/alsa/init/default \
-#vendor/motorola/targa/proprietary/hda:/system/usr/share/alsa/init/hda \
-#vendor/motorola/targa/proprietary/help:/system/usr/share/alsa/init/help \
-#vendor/motorola/targa/proprietary/info:/system/usr/share/alsa/init/info \
-#vendor/motorola/targa/proprietary/test:/system/usr/share/alsa/init/test \
-
-# system/xbin
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/targa/proprietary/backup:/system/xbin/backup \
-#vendor/motorola/targa/proprietary/run_backup:/system/xbin/run_backup \
-#vendor/motorola/targa/proprietary/run_restore:/system/xbin/run_restore \
 
