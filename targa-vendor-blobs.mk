@@ -208,7 +208,6 @@ vendor/motorola/targa/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/targa/proprietary/libipsec.so:/system/lib/libipsec.so \
 vendor/motorola/targa/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/targa/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
-vendor/motorola/targa/proprietary/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
 vendor/motorola/targa/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
 vendor/motorola/targa/proprietary/libmetainfo.so:/system/lib/libmetainfo.so \
 vendor/motorola/targa/proprietary/libmirror.so:/system/lib/libmirror.so \
@@ -277,7 +276,6 @@ vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril
 vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/targa/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
-vendor/motorola/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
