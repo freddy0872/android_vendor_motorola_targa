@@ -53,11 +53,11 @@ vendor/motorola/targa/proprietary/tcmd:/system/bin/tcmd \
 vendor/motorola/targa/proprietary/tcmdhelp:/system/bin/tcmdhelp \
 vendor/motorola/targa/proprietary/testpppd:/system/bin/testpppd \
 vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
-vendor/motorola/targa/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 vendor/motorola/targa/proprietary/tund:/system/bin/tund \
 vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
-vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
+vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \\
+vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 
 #vendor/motorola/targa/proprietary/battd:/system/bin/battd \
 #vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
@@ -65,7 +65,6 @@ vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 #vendor/motorola/targa/proprietary/ip:/system/bin/ip \
 #vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
 #vendor/motorola/targa/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/targa/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 #vendor/motorola/targa/proprietary/tf_daemon:/system/bin/tf_daemon \
 #vendor/motorola/targa/proprietary/tstmetainfo:/system/bin/tstmetainfo \
@@ -226,9 +225,7 @@ vendor/motorola/targa/proprietary/libmot_bluetooth_jni.so:/system/lib/libmot_blu
 vendor/motorola/targa/proprietary/libmot_bthid_jni.so:/system/lib/libmot_bthid_jni.so \
 vendor/motorola/targa/proprietary/libmot_btpan_jni.so:/system/lib/libmot_btpan_jni.so \
 vendor/motorola/targa/proprietary/libmot_led.so:/system/lib/libmot_led.so \
-vendor/motorola/targa/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
 vendor/motorola/targa/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
-vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/targa/proprietary/libnmea.so:/system/lib/libnmea.so \
 vendor/motorola/targa/proprietary/libpanorama.so:/system/lib/libpanorama.so \
 vendor/motorola/targa/proprietary/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
@@ -262,23 +259,38 @@ vendor/motorola/targa/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHard
 vendor/motorola/targa/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/targa/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/targa/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
-vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
 vendor/motorola/targa/proprietary/base64:/system/bin/base64 \
+vendor/motorola/targa/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
 vendor/motorola/targa/proprietary/libb64.so:/system/lib/libb64.so \
 vendor/motorola/targa/proprietary/libbabysit.so:/system/lib/libbabysit.so \
+vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
+vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
+vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/libmoto_intfutil_ril.so \
+vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
+vendor/motorola/targa/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
+vendor/motorola/targa/proprietary/libmoto_mm_ril.so:/system/lib/libmoto_mm_ril.so \
+vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
+vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
+vendor/motorola/targa/proprietary/libmoto_rds_ril.so:/system/lib/libmoto_rds_ril.so \
+vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
+vendor/motorola/targa/proprietary/logcatd:/system/bin/logcatd \
+vendor/motorola/targa/proprietary/logcatdblan:/system/bin/logcatdblan \
 vendor/motorola/targa/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
+vendor/motorola/targa/proprietary/qbp-apr-dump.sh:/system/bin/qbp-apr-dump.sh \
+vendor/motorola/targa/proprietary/qbp-dump.sh:/system/bin/qbp-dump.sh \
+vendor/motorola/targa/proprietary/qbpfs:/system/bin/qbpfs \
+vendor/motorola/targa/proprietary/tty2ttyd:/system/bin/tty2ttyd \
+vendor/motorola/targa/proprietary/vril-dump:/system/bin/vril-dump \
 vendor/motorola/targa/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
 vendor/motorola/targa/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 vendor/motorola/targa/proprietary/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
-vendor/motorola/targa/proprietary/vril-dump:/system/bin/vril-dump \
-vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
-vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
+vendor/motorola/targa/proprietary/wrigley-iptables.sh:/system/bin/wrigley-iptables.sh \
 vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
-vendor/motorola/targa/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
+vendor/motorola/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
