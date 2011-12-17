@@ -274,7 +274,7 @@ vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril
 vendor/motorola/targa/proprietary/libmoto_rds_ril.so:/system/lib/libmoto_rds_ril.so \
 vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/targa/proprietary/logcatd:/system/bin/logcatd \
-vendor/motorola/targa/proprietary/logcatdblan:/system/bin/logcatdblan \
+vendor/motorola/targa/proprietary/logcatd-blan:/system/bin/logcatd-blan \
 vendor/motorola/targa/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
 vendor/motorola/targa/proprietary/qbp-apr-dump.sh:/system/bin/qbp-apr-dump.sh \
 vendor/motorola/targa/proprietary/qbp-dump.sh:/system/bin/qbp-dump.sh \
