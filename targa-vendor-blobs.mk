@@ -56,7 +56,7 @@ vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
 vendor/motorola/targa/proprietary/tund:/system/bin/tund \
 vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
-vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \\
+vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 
 #vendor/motorola/targa/proprietary/battd:/system/bin/battd \
