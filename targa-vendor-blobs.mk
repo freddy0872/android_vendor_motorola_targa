@@ -290,7 +290,6 @@ vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
-vendor/motorola/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
