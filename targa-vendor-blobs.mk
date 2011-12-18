@@ -44,8 +44,6 @@ vendor/motorola/targa/proprietary/mdm_panicd:/system/bin/mdm_panicd \
 vendor/motorola/targa/proprietary/modemlog:/system/bin/modemlog \
 vendor/motorola/targa/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/targa/proprietary/napics.sh:/system/bin/napics.sh \
-vendor/motorola/targa/proprietary/pppd-ril:/system/bin/pppd-ril \
-vendor/motorola/targa/proprietary/rild:/system/bin/rild \
 vendor/motorola/targa/proprietary/secclkd:/system/bin/secclkd \
 vendor/motorola/targa/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
 vendor/motorola/targa/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
@@ -58,7 +56,13 @@ vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
+vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
+vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
+vendor/motorola/targa/proprietary/pppd-ril:/system/bin/pppd-ril \
 
+#vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+#vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
+#vendor/motorola/targa/proprietary/rild:/system/bin/rild \
 #vendor/motorola/targa/proprietary/battd:/system/bin/battd \
 #vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 #vendor/motorola/targa/proprietary/dlnasrv:/system/bin/dlnasrv \
@@ -236,10 +240,6 @@ vendor/motorola/targa/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plug
 vendor/motorola/targa/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 vendor/motorola/targa/proprietary/libprovlib.so:/system/lib/libprovlib.so \
 vendor/motorola/targa/proprietary/libquicksec.so:/system/lib/libquicksec.so \
-vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
-vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
-vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/targa/proprietary/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/targa/proprietary/libsmapi.so:/system/lib/libsmapi.so \
 vendor/motorola/targa/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
