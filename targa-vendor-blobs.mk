@@ -263,33 +263,34 @@ vendor/motorola/targa/proprietary/base64:/system/bin/base64 \
 vendor/motorola/targa/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
 vendor/motorola/targa/proprietary/libb64.so:/system/lib/libb64.so \
 vendor/motorola/targa/proprietary/libbabysit.so:/system/lib/libbabysit.so \
-vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
-vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
-vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/libmoto_intfutil_ril.so \
 vendor/motorola/targa/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
 vendor/motorola/targa/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
-vendor/motorola/targa/proprietary/libmoto_mm_ril.so:/system/lib/libmoto_mm_ril.so \
 vendor/motorola/targa/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
 vendor/motorola/targa/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
-vendor/motorola/targa/proprietary/libmoto_rds_ril.so:/system/lib/libmoto_rds_ril.so \
 vendor/motorola/targa/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/targa/proprietary/logcatd:/system/bin/logcatd \
 vendor/motorola/targa/proprietary/logcatd-blan:/system/bin/logcatd-blan \
 vendor/motorola/targa/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
-vendor/motorola/targa/proprietary/qbp-apr-dump.sh:/system/bin/qbp-apr-dump.sh \
-vendor/motorola/targa/proprietary/qbp-dump.sh:/system/bin/qbp-dump.sh \
-vendor/motorola/targa/proprietary/qbpfs:/system/bin/qbpfs \
 vendor/motorola/targa/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 vendor/motorola/targa/proprietary/vril-dump:/system/bin/vril-dump \
 vendor/motorola/targa/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
 vendor/motorola/targa/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 vendor/motorola/targa/proprietary/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
-vendor/motorola/targa/proprietary/wrigley-iptables.sh:/system/bin/wrigley-iptables.sh \
 vendor/motorola/targa/proprietary/mountosh:/system/bin/mountosh \
 vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
+
+#vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
+#vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
+#vendor/motorola/targa/proprietary/libmoto_intfutil_ril:/system/lib/libmoto_intfutil_ril.so \
+#vendor/motorola/targa/proprietary/libmoto_mm_ril.so:/system/lib/libmoto_mm_ril.so \
+#vendor/motorola/targa/proprietary/libmoto_rds_ril.so:/system/lib/libmoto_rds_ril.so \
+#vendor/motorola/targa/proprietary/qbp-apr-dump.sh:/system/bin/qbp-apr-dump.sh \
+#vendor/motorola/targa/proprietary/qbp-dump.sh:/system/bin/qbp-dump.sh \
+#vendor/motorola/targa/proprietary/qbpfs:/system/bin/qbpfs \
+#vendor/motorola/targa/proprietary/wrigley-iptables.sh:/system/bin/wrigley-iptables.sh \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
