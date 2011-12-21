@@ -281,8 +281,8 @@ vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
-vendor/motorola/targaproprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
-vendor/motorola/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
+vendor/motorola/targa/proprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
+vendor/motorola/targa/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 
 #vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
 #vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
