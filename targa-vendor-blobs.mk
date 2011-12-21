@@ -59,12 +59,12 @@ vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/targa/proprietary/pppd-ril:/system/bin/pppd-ril \
+vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 
 #vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
 #vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
 #vendor/motorola/targa/proprietary/rild:/system/bin/rild \
 #vendor/motorola/targa/proprietary/battd:/system/bin/battd \
-#vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 #vendor/motorola/targa/proprietary/dlnasrv:/system/bin/dlnasrv \
 #vendor/motorola/targa/proprietary/ip:/system/bin/ip \
 #vendor/motorola/targa/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
@@ -281,6 +281,8 @@ vendor/motorola/targa/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/targa/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/targa/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
+vendor/motorola/targaproprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
+vendor/motorola/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 
 #vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
 #vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
