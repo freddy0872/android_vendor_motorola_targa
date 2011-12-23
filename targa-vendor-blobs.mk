@@ -53,7 +53,6 @@ vendor/motorola/targa/proprietary/testpppd:/system/bin/testpppd \
 vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
 vendor/motorola/targa/proprietary/tund:/system/bin/tund \
 vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
-vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
@@ -284,6 +283,7 @@ vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
 vendor/motorola/targa/proprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/motorola/targa/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 
+#vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
 #vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
 #vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
 #vendor/motorola/targa/proprietary/libmoto_intfutil_ril:/system/lib/libmoto_intfutil_ril.so \
