@@ -207,7 +207,6 @@ vendor/motorola/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 vendor/motorola/targa/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/motorola/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/targa/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
-vendor/motorola/targa/proprietary/libipsec.so:/system/lib/libipsec.so \
 vendor/motorola/targa/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/targa/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/motorola/targa/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
@@ -283,17 +282,9 @@ vendor/motorola/targa/proprietary/libportaljni.so:/system/lib/libportaljni.so \
 vendor/motorola/targa/proprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/motorola/targa/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/targa/proprietary/whisperd:/system/bin/whisperd \
+vendor/motorola/targa/proprietary/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
 
-#vendor/motorola/targa/proprietary/libmoto_cdma_ril.so:/system/lib/libmoto_cdma_ril.so \
-#vendor/motorola/targa/proprietary/libmoto_db_ril.so:/system/lib/libmoto_db_ril.so \
-#vendor/motorola/targa/proprietary/libmoto_intfutil_ril:/system/lib/libmoto_intfutil_ril.so \
-#vendor/motorola/targa/proprietary/libmoto_mm_ril.so:/system/lib/libmoto_mm_ril.so \
-#vendor/motorola/targa/proprietary/libmoto_rds_ril.so:/system/lib/libmoto_rds_ril.so \
-#vendor/motorola/targa/proprietary/qbp-apr-dump.sh:/system/bin/qbp-apr-dump.sh \
-#vendor/motorola/targa/proprietary/qbp-dump.sh:/system/bin/qbp-dump.sh \
-#vendor/motorola/targa/proprietary/qbpfs:/system/bin/qbpfs \
-#vendor/motorola/targa/proprietary/wrigley-iptables.sh:/system/bin/wrigley-iptables.sh \
-
+#vendor/motorola/targa/proprietary/libipsec.so:/system/lib/libipsec.so \
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/Notify_MPUAPP_reroute_Test_Core1.xem3:/system/lib/ducati/Notify_MPUAPP_reroute_Test_Core1.xem3 \
