@@ -261,6 +261,7 @@ vendor/motorola/targa/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
 vendor/motorola/targa/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
 vendor/motorola/targa/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
+vendor/motorola/targa/proprietary/libreference-cdma-sms.so:/system/libreference-cdma-sms.so \
 vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
 vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
 vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
