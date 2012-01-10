@@ -16,12 +16,21 @@
 
 # All the blobs necessary for targa
 
-# system/app
-PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
-vendor/motorola/targa/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-vendor/motorola/targa/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-vendor/motorola/targa/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
+include $(all-subdir-makefiles)
+
+PRODUCT_PACKAGES += \
+	ChargeOnlyMode \
+	com.motorola.android.server.ims \
+	ConnMO \
+	DMService \
+	GlobalUnplug \
+	PhoneConfig \
+	ProgramMenu \
+	ProgramMenuSystem \
+	Usb \
+	vzwapnpermission \
+	vzwappdirectedsmspermission
+
 
 # system/bin
 PRODUCT_COPY_FILES += \
