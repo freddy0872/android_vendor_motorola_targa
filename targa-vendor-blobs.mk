@@ -30,6 +30,13 @@ PRODUCT_PACKAGES += \
 	vzwapnpermission \
 	vzwappdirectedsmspermission
 
+# system/framework
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/com.motorola.atcmd.base.jar:/system/framework/com.motorola.atcmd.base.jar \
+vendor/motorola/targa/proprietary/com.motorola.atcmd.pluginMgr.jar:/system/framework/com.motorola.atcmd.pluginMgr.jar \
+vendor/motorola/targa/proprietary/com.motorola.device.jar:/system/framework/com.motorola.device.jar \
+vendor/motorola/targa/proprietary/jcifs-krb5-1.3.12.jar:/system/framework/jcifs-krb5-1.3.12.jar \
+
 
 # system/bin
 PRODUCT_COPY_FILES += \
