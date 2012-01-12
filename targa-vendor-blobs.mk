@@ -17,8 +17,6 @@
 
 # All the blobs necessary for targa
 
-include $(all-subdir-makefiles)
-
 PRODUCT_PACKAGES += \
 	ChargeOnlyMode \
 	com.motorola.android.server.ims \
