@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
 	ConnMO \
 	DMService \
 	GlobalUnplug \
+	LocationProxyDmPlugin \
 	PhoneConfig \
 	ProgramMenu \
 	ProgramMenuSystem \
@@ -31,6 +32,8 @@ PRODUCT_PACKAGES += \
 
 # system/framework
 PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/com.motorola.android.frameworks.jar:/system/framework/com.motorola.android.frameworks.jar \
+vendor/motorola/targa/proprietary/com.motorola.android.telephony.jar:/system/framework/com.motorola.android.telephony.jar \
 vendor/motorola/targa/proprietary/com.motorola.atcmd.base.jar:/system/framework/com.motorola.atcmd.base.jar \
 vendor/motorola/targa/proprietary/com.motorola.atcmd.pluginMgr.jar:/system/framework/com.motorola.atcmd.pluginMgr.jar \
 vendor/motorola/targa/proprietary/com.motorola.device.jar:/system/framework/com.motorola.device.jar \
