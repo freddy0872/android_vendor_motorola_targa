@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
 	PhoneConfig \
 	ProgramMenu \
 	ProgramMenuSystem \
-	Usb \
 	vzwapnpermission \
 	vzwappdirectedsmspermission
 
