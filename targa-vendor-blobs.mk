@@ -35,7 +35,6 @@ vendor/motorola/targa/proprietary/dund:/system/bin/dund \
 vendor/motorola/targa/proprietary/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/targa/proprietary/enable_mdm_usb_suspend.sh:/system/bin/enable_mdm_usb_suspend.sh \
 vendor/motorola/targa/proprietary/enc_mgt_tool:/system/bin/enc_mgt_tool \
-vendor/motorola/targa/proprietary/encryption_test:/system/bin/encryption_test \
 vendor/motorola/targa/proprietary/fbread:/system/bin/fbread \
 vendor/motorola/targa/proprietary/ftmipcd:/system/bin/ftmipcd \
 vendor/motorola/targa/proprietary/gkilogd:/system/bin/gkilogd \
@@ -57,7 +56,6 @@ vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 vendor/motorola/targa/proprietary/motobox:/system/bin/motobox \
 vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
-vendor/motorola/targa/proprietary/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 
 #vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
