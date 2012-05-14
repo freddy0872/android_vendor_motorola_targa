@@ -48,7 +48,6 @@ vendor/motorola/targa/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 vendor/motorola/targa/proprietary/tcmd:/system/bin/tcmd \
 vendor/motorola/targa/proprietary/tcmdhelp:/system/bin/tcmdhelp \
 vendor/motorola/targa/proprietary/testpppd:/system/bin/testpppd \
-vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
 vendor/motorola/targa/proprietary/tund:/system/bin/tund \
 vendor/motorola/targa/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/targa/proprietary/vpnclientpm:/system/bin/vpnclientpm \
@@ -57,6 +56,7 @@ vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 
+#vendor/motorola/targa/proprietary/tiap_loader:/system/bin/tiap_loader \
 #vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
 #vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
