@@ -18,7 +18,6 @@
 
 # system/bin
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 vendor/motorola/targa/proprietary/akmd2:/system/bin/akmd2 \
 vendor/motorola/targa/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
 vendor/motorola/targa/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
@@ -58,6 +57,7 @@ vendor/motorola/targa/proprietary/librds_util.so:/system/lib/librds_util.so \
 vendor/motorola/targa/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/targa/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 
+#vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
 #vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
 #vendor/motorola/targa/proprietary/rild:/system/bin/rild \
