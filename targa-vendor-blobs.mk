@@ -17,19 +17,6 @@
 
 # All the blobs necessary for targa
 
-PRODUCT_PACKAGES += \
-	ChargeOnlyMode \
-	com.motorola.android.server.ims \
-	ConnMO \
-	DMService \
-	GlobalUnplug \
-	LocationProxyDmPlugin \
-	PhoneConfig \
-	ProgramMenu \
-	ProgramMenuSystem \
-	vzwapnpermission \
-	vzwappdirectedsmspermission
-
 # system/bin
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/bin/akmd2:/system/bin/akmd2 \
@@ -39,7 +26,6 @@ vendor/motorola/targa/proprietary/bin/base64:/system/bin/base64 \
 vendor/motorola/targa/proprietary/bin/batch:/system/bin/batch \
 vendor/motorola/targa/proprietary/bin/battd:/system/bin/battd \
 vendor/motorola/targa/proprietary/bin/btcmd:/system/bin/btcmd \
-vendor/motorola/targa/proprietary/bin/bluetoothd:/system/bin/bluetoothd \
 vendor/motorola/targa/proprietary/bin/bthelp:/system/bin/bthelp \
 vendor/motorola/targa/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
 vendor/motorola/targa/proprietary/bin/bugtogo.sh:/system/bin/bugtogo.sh \
@@ -69,7 +55,6 @@ vendor/motorola/targa/proprietary/bin/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/targa/proprietary/bin/motobox:/system/bin/motobox \
 vendor/motorola/targa/proprietary/bin/mountosh:/system/bin/mountosh \
 vendor/motorola/targa/proprietary/bin/napics.sh:/system/bin/napics.sh \
-vendor/motorola/targa/proprietary/bin/pppd:/system/bin/pppd \
 vendor/motorola/targa/proprietary/bin/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/targa/proprietary/bin/pvrsrvinit:/system/bin/pvrsrvinit \
 vendor/motorola/targa/proprietary/bin/secclkd:/system/bin/secclkd \
@@ -215,7 +200,6 @@ vendor/motorola/targa/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.s
 vendor/motorola/targa/proprietary/lib/libipsec.so:/system/lib/libipsec.so \
 vendor/motorola/targa/proprietary/lib/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/targa/proprietary/lib/libjni_nwp.so:/system/lib/libjni_nwp.so \
-vendor/motorola/targa/proprietary/lib/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
 vendor/motorola/targa/proprietary/lib/libkpilogger.so:/system/lib/libkpilogger.so \
 vendor/motorola/targa/proprietary/lib/libmetainfo.so:/system/lib/libmetainfo.so \
 vendor/motorola/targa/proprietary/lib/libmirror.so:/system/lib/libmirror.so \
@@ -235,7 +219,6 @@ vendor/motorola/targa/proprietary/lib/libmtpstack.so:/system/lib/libmtpstack.so 
 vendor/motorola/targa/proprietary/lib/libnative_renderer.so:/system/lib/libnative_renderer.so \
 vendor/motorola/targa/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
 vendor/motorola/targa/proprietary/lib/libnbgm.so:/system/lib/libnbgm.so \
-vendor/motorola/targa/proprietary/lib/libnetutils.so:/system/lib/libnetutils.so \
 vendor/motorola/targa/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
 vendor/motorola/targa/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
 vendor/motorola/targa/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
@@ -250,7 +233,6 @@ vendor/motorola/targa/proprietary/lib/libpvr2d.so:/system/lib/libpvr2d.so \
 vendor/motorola/targa/proprietary/lib/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
 vendor/motorola/targa/proprietary/lib/libquicksec.so:/system/lib/libquicksec.so \
 vendor/motorola/targa/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
-vendor/motorola/targa/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
 vendor/motorola/targa/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/targa/proprietary/lib/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/targa/proprietary/lib/libsmapi.so:/system/lib/libsmapi.so \
@@ -272,6 +254,8 @@ vendor/motorola/targa/proprietary/lib/libvsuite_mot_vs32_cmb103.so:/system/lib/l
 vendor/motorola/targa/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 vendor/motorola/targa/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 
+#vendor/motorola/targa/proprietary/lib/libnetutils.so:/system/lib/libnetutils.so \
+#vendor/motorola/targa/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
 #vendor/motorola/targa/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 #vendor/motorola/targa/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
 #vendor/motorola/targa/proprietary/lib/libril.so:/system/lib/libril.so \
