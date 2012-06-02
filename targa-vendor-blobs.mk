@@ -107,8 +107,8 @@ vendor/motorola/targa/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmwa
 vendor/motorola/targa/proprietary/etc/firmware/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
 vendor/motorola/targa/proprietary/etc/firmware/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
 vendor/motorola/targa/proprietary/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
-vendor/motorola/targa/proprietary/etc/omapcamR8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
-vendor/motorola/targa/proprietary/etc/omapcamSEN2.cfg:/system/etc/omapcam/SEN2.cfg \
+vendor/motorola/targa/proprietary/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
+vendor/motorola/targa/proprietary/etc/omapcam/SEN2.cfg:/system/etc/omapcam/SEN2.cfg \
 vendor/motorola/targa/proprietary/etc/omapcam/module1.bakcid1039_cid1039_capabilities.bin:/system/etc/omapcam/module1.bak/cid1039_cid1039_capabilities.bin \
 vendor/motorola/targa/proprietary/etc/omapcam/module1.bakcid1039_ov8820_alg_3a_ae_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin \
 vendor/motorola/targa/proprietary/etc/omapcam/module1.bakcid1039_ov8820_alg_3a_ae_mms2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin \
