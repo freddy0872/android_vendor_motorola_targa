@@ -34,8 +34,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/bin/akmd2:/system/bin/akmd2 \
 vendor/motorola/targa/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
-vendor/motorola/targa/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
-vendor/motorola/targa/proprietary/base64:/system/bin/base64 \
+vendor/motorola/targa/proprietary/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
+vendor/motorola/targa/proprietary/bin/base64:/system/bin/base64 \
 vendor/motorola/targa/proprietary/bin/batch:/system/bin/batch \
 vendor/motorola/targa/proprietary/bin/battd:/system/bin/battd \
 vendor/motorola/targa/proprietary/bin/btcmd:/system/bin/btcmd \
@@ -91,9 +91,9 @@ vendor/motorola/targa/proprietary/bin/wrigley-diag.sh:/system/bin/wrigley-diag.s
 vendor/motorola/targa/proprietary/bin/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 vendor/motorola/targa/proprietary/bin/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
 
-#vendor/motorola/targa/proprietary/vold:/system/bin/vold \
-#vendor/motorola/targa/proprietary/rild:/system/bin/rild \
-#vendor/motorola/targa/proprietary/Hostapd:/system/bin/Hostapd \
+#vendor/motorola/targa/proprietary/bin/vold:/system/bin/vold \
+#vendor/motorola/targa/proprietary/bin/rild:/system/bin/rild \
+#vendor/motorola/targa/proprietary/bin/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/bin/tiap_loader:/system/bin/tiap_loader \
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -346,9 +346,9 @@ vendor/motorola/targa/proprietary/usr/share/alsa/init/test:/system/usr/share/als
 
 # system/xbin
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/backup:/system/xbin/backup \
-vendor/motorola/targa/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
-vendor/motorola/targa/proprietary/run_backup:/system/xbin/run_backup \
-vendor/motorola/targa/proprietary/run_restore:/system/xbin/run_restore \
-vendor/motorola/targa/proprietary/ssmgrd:/system/xbin/ssmgrd \
+vendor/motorola/targa/proprietary/xbin/backup:/system/xbin/backup \
+vendor/motorola/targa/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
+vendor/motorola/targa/proprietary/xbin/run_backup:/system/xbin/run_backup \
+vendor/motorola/targa/proprietary/xbin/run_restore:/system/xbin/run_restore \
+vendor/motorola/targa/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
 
