@@ -337,7 +337,7 @@ vendor/motorola/targa/proprietary/usr/keylayout/evfwd.kl:/system/usr/keylayout/e
 vendor/motorola/targa/proprietary/usr/keylayout/qwerty.kl:/system/usr/keylayout/qwerty.kl \
 vendor/motorola/targa/proprietary/usr/keylayout/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
 vendor/motorola/targa/proprietary/usr/share/alsa/alsa.conf:/system/usr/share/alsa/alsa.conf \
-vendor/motorola/targa/proprietary/usr/share/alsa/init00main:/system/usr/share/alsa/init/00main \
+vendor/motorola/targa/proprietary/usr/share/alsa/init/00main:/system/usr/share/alsa/init/00main \
 vendor/motorola/targa/proprietary/usr/share/alsa/init/default:/system/usr/share/alsa/init/default \
 vendor/motorola/targa/proprietary/usr/share/alsa/init/hda:/system/usr/share/alsa/init/hda \
 vendor/motorola/targa/proprietary/usr/share/alsa/init/help:/system/usr/share/alsa/init/help \
