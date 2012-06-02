@@ -295,10 +295,10 @@ vendor/motorola/targa/proprietary/lib/hw/sensors.targa.so:/system/lib/hw/sensors
 
 # system/tts
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/tts/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
-vendor/motorola/targa/proprietary/tts/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.bin \
-vendor/motorola/targa/proprietary/tts/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
-vendor/motorola/targa/proprietary/tts/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
+vendor/motorola/targa/proprietary/tts/lang_pico/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
+vendor/motorola/targa/proprietary/tts/lang_pico/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.bin \
+vendor/motorola/targa/proprietary/tts/lang_pico/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
+vendor/motorola/targa/proprietary/tts/lang_pico/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
 
 # system/usr
 PRODUCT_COPY_FILES += \
