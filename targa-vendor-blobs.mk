@@ -61,7 +61,7 @@ vendor/motorola/targa/proprietary/bin/secclkd:/system/bin/secclkd \
 vendor/motorola/targa/proprietary/bin/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 vendor/motorola/targa/proprietary/bin/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
 vendor/motorola/targa/proprietary/bin/startup_smc.sh:/system/bin/startup_smc.sh \
-vendor/motorola/targa/proprietary/bim/tcmd:/system/bin/tcmd \
+vendor/motorola/targa/proprietary/bin/tcmd:/system/bin/tcmd \
 vendor/motorola/targa/proprietary/bin/tcmdhelp:/system/bin/tcmdhelp \
 vendor/motorola/targa/proprietary/bin/testpppd:/system/bin/testpppd \
 vendor/motorola/targa/proprietary/bin/tf_daemon:/system/bin/tf_daemon \
