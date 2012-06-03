@@ -195,12 +195,15 @@ vendor/motorola/targa/proprietary/lib/libgdx.so:/system/lib/libgdx.so \
 vendor/motorola/targa/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
 vendor/motorola/targa/proprietary/lib/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/targa/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
+vendor/motorola/targa/proprietary/lib/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/motorola/targa/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/targa/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/targa/proprietary/lib/libipsec.so:/system/lib/libipsec.so \
 vendor/motorola/targa/proprietary/lib/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/targa/proprietary/lib/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/motorola/targa/proprietary/lib/libkpilogger.so:/system/lib/libkpilogger.so \
+vendor/motorola/targa/proprietary/lib/libmcphal.so:/system/lib/libmcphal.so \
+vendor/motorola/targa/proprietary/lib/libmediaext.so:/system/lib/libmediaext.so \
 vendor/motorola/targa/proprietary/lib/libmetainfo.so:/system/lib/libmetainfo.so \
 vendor/motorola/targa/proprietary/lib/libmirror.so:/system/lib/libmirror.so \
 vendor/motorola/targa/proprietary/lib/libmirrorjni.so:/system/lib/libmirrorjni.so \
@@ -220,6 +223,16 @@ vendor/motorola/targa/proprietary/lib/libnative_renderer.so:/system/lib/libnativ
 vendor/motorola/targa/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
 vendor/motorola/targa/proprietary/lib/libnbgm.so:/system/lib/libnbgm.so \
 vendor/motorola/targa/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
+vendor/motorola/targa/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
+vendor/motorola/targa/proprietary/lib/libOMX.ITTIAM.WMA.decode.so:/system/lib/libOMX.ITTIAM.WMA.decode.so \
+vendor/motorola/targa/proprietary/lib/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_amrenc_sharedlibrary.so:/system/lib/libomx_amrenc_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_m4vdec_sharedlibrary.so:/system/lib/libomx_m4vdec_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_mp3dec_sharedlibrary.so:/system/lib/libomx_mp3dec_sharedlibrary.so \
+vendor/motorola/targa/proprietary/lib/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
 vendor/motorola/targa/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
 vendor/motorola/targa/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
 vendor/motorola/targa/proprietary/lib/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
@@ -240,6 +253,7 @@ vendor/motorola/targa/proprietary/lib/libspellingcheckengine.so:/system/lib/libs
 vendor/motorola/targa/proprietary/lib/libsrv_init.so:/system/lib/libsrv_init.so \
 vendor/motorola/targa/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
 vendor/motorola/targa/proprietary/lib/libssmgr.so:/system/lib/libssmgr.so \
+vendor/motorola/targa/proprietary/lib/libsyslink_ipc_listener.so:/system/lib/libsyslink_ipc_listener.so \
 vendor/motorola/targa/proprietary/lib/libtexture_mem.so:/system/lib/libtexture_mem.so \
 vendor/motorola/targa/proprietary/lib/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
 vendor/motorola/targa/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
@@ -252,6 +266,7 @@ vendor/motorola/targa/proprietary/lib/libvorbisenc.so:/system/lib/libvorbisenc.s
 vendor/motorola/targa/proprietary/lib/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/targa/proprietary/lib/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
 vendor/motorola/targa/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
+vendor/motorola/targa/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 vendor/motorola/targa/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 
 #vendor/motorola/targa/proprietary/lib/libnetutils.so:/system/lib/libnetutils.so \
