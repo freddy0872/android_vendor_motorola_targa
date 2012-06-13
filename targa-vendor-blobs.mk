@@ -45,6 +45,8 @@ vendor/motorola/targa/proprietary/bin/fbread:/system/bin/fbread \
 vendor/motorola/targa/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
 vendor/motorola/targa/proprietary/bin/gkilogd:/system/bin/gkilogd \
 vendor/motorola/targa/proprietary/bin/hdcp-mknod:/system/bin/hdcp-mknod \
+vendor/motorola/targa/proprietary/bin/ip:/system/bin/ip \
+vendor/motorola/targa/proprietary/bin/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
 vendor/motorola/targa/proprietary/bin/logcatd:/system/bin/logcatd \
 vendor/motorola/targa/proprietary/bin/logcatd-blan:/system/bin/logcatd-blan \
 vendor/motorola/targa/proprietary/bin/mdm_panicd:/system/bin/mdm_panicd \
@@ -167,6 +169,7 @@ vendor/motorola/targa/proprietary/etc/vsensor.d/MeaningFulLocation.vsensor:/syst
 vendor/motorola/targa/proprietary/etc/wifi/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
 vendor/motorola/targa/proprietary/etc/wifi/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
 vendor/motorola/targa/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
+
 
 # system/lib
 PRODUCT_COPY_FILES += \
