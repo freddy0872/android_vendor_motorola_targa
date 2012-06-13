@@ -354,3 +354,19 @@ vendor/motorola/targa/proprietary/xbin/run_backup:/system/xbin/run_backup \
 vendor/motorola/targa/proprietary/xbin/run_restore:/system/xbin/run_restore \
 vendor/motorola/targa/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
 
+# permissions
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/etc/permissions/platform.xml:/system/etc/permissions/platform.xml \
+vendor/motorola/targa/proprietary/etc/permissions/com.motorola.android.iextdispservice.xml:/system/etc/permissions/com.motorola.android.iextdispservice.xml \
+vendor/motorola/targa/proprietary/etc/permissions/com.motorola.android.imirrorservice.xml:/system/etc/permissions/com.motorola.android.imirrorservice.xml \
+vendor/motorola/targa/proprietary/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml \
+
+PRODUCT_PACKAGES += \
+	ExtDispService \
+	GlobalUnplug \
+	MirrorService \
+	PhoneConfig \
+	XternalDisplay \
+	com.motorola.android.iextdispservice \
+	com.motorola.android.imirrorservice \
+	com.motorola.android.nativehdmiapis_v1 \
