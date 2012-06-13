@@ -301,3 +301,19 @@ PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/motorola/targa/proprietary/ssmgrd:/system/xbin/ssmgrd \
 
+# permissions
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/etc/permissions/platform.xml:/system/etc/permissions/platform.xml \
+vendor/motorola/targa/proprietary/etc/permissions/com.motorola.android.iextdispservice.xml:/system/etc/permissions/com.motorola.android.iextdispservice.xml \
+vendor/motorola/targa/proprietary/etc/permissions/com.motorola.android.imirrorservice.xml:/system/etc/permissions/com.motorola.android.imirrorservice.xml \
+vendor/motorola/targa/proprietary/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissoins/com.motorola.android.nativehdmiapis_v1.xml \
+
+PRODUCT_PACKAGES += \
+	ExtDispService \
+	GlobalUnplug \
+	MirrorService \
+	PhoneConfig \
+	XternalDisplay \
+	com.motorola.android.iextdispservice \
+	com.motorola.android.imirrorservice \
+	com.motorola.android.nativehdmiapis_v1 \
