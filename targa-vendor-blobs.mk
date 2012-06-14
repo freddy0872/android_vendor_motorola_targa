@@ -77,9 +77,8 @@ vendor/motorola/targa/proprietary/bin/whisperd:/system/bin/whisperd \
 vendor/motorola/targa/proprietary/bin/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
 vendor/motorola/targa/proprietary/bin/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 vendor/motorola/targa/proprietary/bin/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
+vendor/motorola/targa/proprietary/bin/vold:/system/bin/vold \
 
-#vendor/motorola/targa/proprietary/bin/vold:/system/bin/vold \
-#vendor/motorola/targa/proprietary/bin/rild:/system/bin/rild \
 #vendor/motorola/targa/proprietary/bin/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/bin/tiap_loader:/system/bin/tiap_loader \
 # system/etc
@@ -275,10 +274,12 @@ vendor/motorola/targa/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 #vendor/motorola/targa/proprietary/lib/libnetutils.so:/system/lib/libnetutils.so \
 #vendor/motorola/targa/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
 #vendor/motorola/targa/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
-#vendor/motorola/targa/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
-#vendor/motorola/targa/proprietary/lib/libril.so:/system/lib/libril.so \
+
 # RIL
 PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/bin/rild:/system/bin/rild \
+vendor/motorola/targa/proprietary/lib/libril.so:/system/lib/libril.so \
+vendor/motorola/targa/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
 vendor/motorola/targa/proprietary/lib/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/targa/proprietary/lib/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
 vendor/motorola/targa/proprietary/lib/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
