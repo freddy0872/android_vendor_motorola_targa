@@ -77,8 +77,8 @@ vendor/motorola/targa/proprietary/bin/whisperd:/system/bin/whisperd \
 vendor/motorola/targa/proprietary/bin/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
 vendor/motorola/targa/proprietary/bin/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 vendor/motorola/targa/proprietary/bin/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
-vendor/motorola/targa/proprietary/bin/vold:/system/bin/vold \
 
+#vendor/motorola/targa/proprietary/bin/vold:/system/bin/vold \
 #vendor/motorola/targa/proprietary/bin/Hostapd:/system/bin/Hostapd \
 #vendor/motorola/targa/proprietary/bin/tiap_loader:/system/bin/tiap_loader \
 # system/etc
