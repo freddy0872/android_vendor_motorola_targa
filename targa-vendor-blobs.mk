@@ -255,7 +255,6 @@ vendor/motorola/targa/proprietary/lib/libspellingcheckengine.so:/system/lib/libs
 vendor/motorola/targa/proprietary/lib/libsrv_init.so:/system/lib/libsrv_init.so \
 vendor/motorola/targa/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
 vendor/motorola/targa/proprietary/lib/libssmgr.so:/system/lib/libssmgr.so \
-vendor/motorola/targa/proprietary/lib/libsyslink_ipc_listener.so:/system/lib/libsyslink_ipc_listener.so \
 vendor/motorola/targa/proprietary/lib/libtexture_mem.so:/system/lib/libtexture_mem.so \
 vendor/motorola/targa/proprietary/lib/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
 vendor/motorola/targa/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
@@ -271,6 +270,7 @@ vendor/motorola/targa/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlpars
 vendor/motorola/targa/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 vendor/motorola/targa/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 
+#vendor/motorola/targa/proprietary/lib/libsyslink_ipc_listener.so:/system/lib/libsyslink_ipc_listener.so \
 #vendor/motorola/targa/proprietary/lib/libnetutils.so:/system/lib/libnetutils.so \
 #vendor/motorola/targa/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
 #vendor/motorola/targa/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
