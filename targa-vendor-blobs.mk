@@ -193,6 +193,7 @@ vendor/motorola/targa/proprietary/lib/libdmjavaplugin.so:/system/lib/libdmjavapl
 vendor/motorola/targa/proprietary/lib/libdrm.so:/system/lib/libdrm.so \
 vendor/motorola/targa/proprietary/lib/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/targa/proprietary/lib/libextdisp.so:/system/lib/libextdisp.so \
+vendor/motorola/targa/proprietary/lib/libgcomm_jni.so:/system/lib/libgcomm_jni.so \
 vendor/motorola/targa/proprietary/lib/libgdx.so:/system/lib/libgdx.so \
 vendor/motorola/targa/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
 vendor/motorola/targa/proprietary/lib/libhdcp.so:/system/lib/libhdcp.so \
