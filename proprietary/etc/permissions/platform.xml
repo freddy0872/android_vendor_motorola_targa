@@ -78,15 +78,6 @@
         <group gid="diag" />
     </permission>
 
-    <!-- Permissions to read DRM-protected theme resources. -->
-    <permission name="com.tmobile.permission.ACCESS_DRM_THEME" >
-        <group gid="theme_manager" />
-    </permission>
-
-    <permission name="android.permission.RAW_AUDIO" >
-        <group gid="audio" />
-    </permission>
-
     <!-- ================================================================== -->
     <!-- ================================================================== -->
     <!-- ================================================================== -->
@@ -112,6 +103,11 @@
     <assign-permission name="android.permission.ACCESS_FINE_LOCATION" uid="shell" />
     <assign-permission name="android.permission.ACCESS_COARSE_LOCATION" uid="shell" />
     <assign-permission name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" uid="shell" />
+<!-- BEGIN MOT GB UPMERGE, ptmn68, 12/22/2010 -->
+<!-- BEGIN Motorola, rjones1, 10/22/10, IKLOCSEN-25 Verizon LBS API -->
+    <assign-permission name="com.vzw.location.ACCESS_GPS_PERMISSION" uid="shell" />
+<!-- END IKLOCSEN-25 -->
+<!-- END MOT GB UPMERGE, ptmn68, 12/22/2010 -->
     <assign-permission name="android.permission.ACCESS_NETWORK_STATE" uid="shell" />
     <assign-permission name="android.permission.ACCESS_WIFI_STATE" uid="shell" />
     <assign-permission name="android.permission.BLUETOOTH" uid="shell" />
@@ -163,12 +159,42 @@
             file="/system/framework/android.test.runner.jar" />
     <library name="javax.obex"
             file="/system/framework/javax.obex.jar"/>
-    <library name="com.motorola.android.imirrorservice"
-            file="/system/framework/com.motorola.android.imirrorservice.jar"/>
-    <library name="com.motorola.android.iextdispservice"
-            file="/system/framework/com.motorola.android.iextdispservice.jar" />
-    <library name="com.motorola.android.nativehdmiapis_v1"
-            file="/system/framework/com.motorola.android.nativehdmiapis_v1.jar" />
+    <!-- BEGIN MOT GB UPMERGE, ptmn68, 12/22/2010 -->
+    <!-- Moto: This is a list of Motorola specific libraries available for application
+         code to link against. -->
+    <library name="com.motorola.android.mediasync"
+            file="/system/framework/com.motorola.android.mediasync.jar"/>
+    <!-- BEGIN Motorola, bjtx47, 09/12/2010, IKMAIN-4209 -->
+    <library name="com.motorola.android.rdc.util"
+            file="/system/framework/com.motorola.android.rdc.util.jar"/>
+    <!-- END IKMAIN-4209 -->
+    <library name="com.motorola.android.image"
+            file="/system/framework/com.motorola.android.image.jar"/>
+    <library name="com.motorola.android.camera"
+            file="/system/framework/com.motorola.android.camera.jar"/>
+    <library name="com.motorola.android.frameworks"
+            file="/system/framework/com.motorola.android.frameworks.jar" />
+    <library name="com.motorola.android.mediasync"
+            file="/system/framework/com.motorola.android.mediasync.jar"/>
+    <library name="com.motorola.android.mime"
+            file="/system/framework/com.motorola.android.mime.jar" />
+    <library name="com.motorola.android.telephony"
+            file="/system/framework/com.motorola.android.telephony.jar" />
+    <library name="com.motorola.android.widget"
+            file="/system/framework/com.motorola.android.widget.jar"/>
+    <library name="libvsapi"
+            file="/system/framework/libvsapi.jar"/>
+    <!-- BEGIN Motorola, a5705c, 07/15/2010, IKMAIN-942 -->
+    <library name="guava"
+            file="/system/framework/guava.jar"/>
+    <!-- END IKMAIN-942 -->
+    <!-- END MOT GB UPMERGE, ptmn68, 12/22/2010 -->
+    <!-- BEGIN Motorola, w20580, 01/28/2011, IKSTABLEFOURV-538 -->
+    <library name="com.motorola.atcmd.base"
+            file="/system/framework/com.motorola.atcmd.base.jar"/>
+    <library name="com.motorola.atcmd.pluginMgr"
+            file="/system/framework/com.motorola.atcmd.pluginMgr.jar"/>
+    <!-- END IKSTABLEFOURV-538 -->
 </permissions>
 
 
