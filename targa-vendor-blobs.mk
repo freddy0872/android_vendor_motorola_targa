@@ -73,9 +73,6 @@ vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa
 vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 vendor/motorola/targa/proprietary/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
 vendor/motorola/targa/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
-
-#vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
-PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
 vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
