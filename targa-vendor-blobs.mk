@@ -72,12 +72,9 @@ vendor/motorola/targa/proprietary/etc/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 vendor/motorola/targa/proprietary/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
+vendor/motorola/targa/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 
 #vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
-
-# system/etc/(others)
-#vendor/motorola/targa/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
-
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
@@ -95,6 +92,7 @@ vendor/motorola/targa/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/m
 vendor/motorola/targa/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/targa/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/targa/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
+vendor/motorola/targa/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
 #vendor/motorola/targa/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
 #vendor/motorola/targa/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
@@ -234,6 +232,7 @@ vendor/motorola/targa/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_tes
 # system/vendor
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/vendor/bin/pvrsrvinit:/system/vendor/bin/pvrsrvinit \
+vendor/motorola/targa/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
 vendor/motorola/targa/proprietary/vendor/lib/egl/libeglinfo.so:/system/vendor/lib/egl/libeglinfo.so \
 vendor/motorola/targa/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
 vendor/motorola/targa/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
@@ -247,9 +246,16 @@ vendor/motorola/targa/proprietary/vendor/lib/libPVRScopeServices.so:/system/vend
 vendor/motorola/targa/proprietary/vendor/lib/libsrv_init_SGX540_120.so:/system/vendor/lib/libsrv_init_SGX540_120.so \
 vendor/motorola/targa/proprietary/vendor/lib/libsrv_um_SGX540_120.so:/system/vendor/lib/libsrv_um_SGX540_120.so \
 vendor/motorola/targa/proprietary/vendor/lib/libusc_SGX540_120.so:/system/vendor/lib/libusc_SGX540_120.so \
-vendor/motorola/targa/proprietary/etc/powervr.ini:/system/etc/powervr.ini
+vendor/motorola/targa/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
+vendor/motorola/targa/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+vendor/motorola/targa/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
 
 # Camera libs we need for now
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 vendor/motorola/targa/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+
+# Load TCMD libs
+PRODUCT_COPY_FILES += \
+vendor/motorola/targa/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
+vendor/motorola/targa/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
