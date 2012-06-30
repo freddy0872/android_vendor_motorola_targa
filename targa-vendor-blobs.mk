@@ -91,9 +91,6 @@ vendor/motorola/targa/proprietary/etc/permissions/com.verizon.hardware.telephony
 vendor/motorola/targa/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
 vendor/motorola/targa/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
-#vendor/motorola/targa/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
-#vendor/motorola/targa/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
-
 # system/usr
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/usr/bin/gki_pd_notifier:system/usr/bin/gki_pd_notifier \
@@ -223,8 +220,6 @@ vendor/motorola/targa/proprietary/lib/hw/sensors.targa.so:/system/lib/hw/sensors
 # system/xbin
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
-#vendor/motorola/targa/proprietary/xbin/dexdump:/system/xbin/dexdump \
-#vendor/motorola/targa/proprietary/xbin/nc:/system/xbin/nc \
 
 # system/vendor
 PRODUCT_COPY_FILES += \
@@ -256,3 +251,4 @@ vendor/motorola/targa/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.o
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
 vendor/motorola/targa/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
+
