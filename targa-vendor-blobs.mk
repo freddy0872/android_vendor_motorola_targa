@@ -74,10 +74,12 @@ vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_
 vendor/motorola/targa/proprietary/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
 vendor/motorola/targa/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 vendor/motorola/targa/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
+vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin.bin \
+vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
+vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
+vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
 vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 vendor/motorola/targa/proprietary/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
 vendor/motorola/targa/proprietary/etc/ppp/peers/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
