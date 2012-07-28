@@ -52,10 +52,6 @@ vendor/motorola/targa/proprietary/bin/usbd:/system/bin/usbd \
 vendor/motorola/targa/proprietary/bin/whisperd:/system/bin/whisperd \
 vendor/motorola/targa/proprietary/bin/vpnclientpm:/system/bin/vpnclientpm \
 
-#vendor/motorola/targa/proprietary/bin/wifiupgradecal.sh:/system/bin/wifiupgradecal.sh \
-#vendor/motorola/targa/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
-#vendor/motorola/targa/proprietary/bin/hostapd:/system/bin/hostapd \
-#vendor/motorola/targa/proprietary/bin/crda:/system/bin/crda \
 # system/etc
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/etc/audio_effects.conf:/system/etc/audio_effects.conf \
@@ -72,15 +68,12 @@ vendor/motorola/targa/proprietary/etc/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 vendor/motorola/targa/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 vendor/motorola/targa/proprietary/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
-vendor/motorola/targa/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
+
+# system/etc/(others)
+#vendor/motorola/targa/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
+
+PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
-vendor/motorola/targa/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 vendor/motorola/targa/proprietary/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
 vendor/motorola/targa/proprietary/etc/ppp/peers/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
 vendor/motorola/targa/proprietary/etc/updatecmds/google_generic_update.txt:/system/etc/updatecmds/google_generic_update.txt \
@@ -93,27 +86,11 @@ vendor/motorola/targa/proprietary/etc/permissions/com.verizon.hardware.telephony
 vendor/motorola/targa/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
 vendor/motorola/targa/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
-#vendor/motorola/targa/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
-#vendor/motorola/targa/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
 
 # system/usr
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/usr/bin/gki_pd_notifier:system/usr/bin/gki_pd_notifier \
 vendor/motorola/targa/proprietary/usr/bin/panic_daemon:system/usr/bin/panic_daemon \
-vendor/motorola/targa/proprietary/usr/idc/evfwd.idc:system/usr/idc/evfwd.idc \
-vendor/motorola/targa/proprietary/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \
-vendor/motorola/targa/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-vendor/motorola/targa/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-vendor/motorola/targa/proprietary/usr/keychars/evfwd.kcm:system/usr/keychars/evfwd.kcm \
-vendor/motorola/targa/proprietary/usr/keychars/omap4-keypad.kcm:system/usr/keychars/omap4-keypad.kcm \
-vendor/motorola/targa/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
-vendor/motorola/targa/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
-vendor/motorola/targa/proprietary/usr/keylayout/atmxt-i2c.kl:system/usr/keylayout/atmxt-i2c.kl \
-vendor/motorola/targa/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-vendor/motorola/targa/proprietary/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
-vendor/motorola/targa/proprietary/usr/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl \
-vendor/motorola/targa/proprietary/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl \
-vendor/motorola/targa/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
 vendor/motorola/targa/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
 vendor/motorola/targa/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 vendor/motorola/targa/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -130,7 +107,21 @@ vendor/motorola/targa/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/
 vendor/motorola/targa/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
 vendor/motorola/targa/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
 vendor/motorola/targa/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-vendor/motorola/targa/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+vendor/motorola/targa/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+vendor/motorola/targa/proprietary/usr/idc/evfwd.idc:system/usr/idc/evfwd.idc \
+vendor/motorola/targa/proprietary/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \
+vendor/motorola/targa/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+vendor/motorola/targa/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+vendor/motorola/targa/proprietary/usr/keychars/evfwd.kcm:system/usr/keychars/evfwd.kcm \
+vendor/motorola/targa/proprietary/usr/keychars/omap4-keypad.kcm:system/usr/keychars/omap4-keypad.kcm \
+vendor/motorola/targa/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+vendor/motorola/targa/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+vendor/motorola/targa/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+vendor/motorola/targa/proprietary/usr/keylayout/atmxt-i2c.kl:system/usr/keylayout/atmxt-i2c.kl \
+vendor/motorola/targa/proprietary/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
+vendor/motorola/targa/proprietary/usr/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl \
+vendor/motorola/targa/proprietary/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl \
+vendor/motorola/targa/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
 
 # system/lib
 PRODUCT_COPY_FILES += \
@@ -225,8 +216,6 @@ vendor/motorola/targa/proprietary/lib/hw/sensors.targa.so:/system/lib/hw/sensors
 # system/xbin
 PRODUCT_COPY_FILES += \
 vendor/motorola/targa/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
-#vendor/motorola/targa/proprietary/xbin/dexdump:/system/xbin/dexdump \
-#vendor/motorola/targa/proprietary/xbin/nc:/system/xbin/nc \
 
 # system/vendor
 PRODUCT_COPY_FILES += \
@@ -250,9 +239,9 @@ vendor/motorola/targa/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm
 vendor/motorola/targa/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
 
 # Camera libs we need for now
-PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
-vendor/motorola/targa/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+#PRODUCT_COPY_FILES += \
+#vendor/motorola/targa/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
+#vendor/motorola/targa/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
 
 # Load TCMD libs
 PRODUCT_COPY_FILES += \
